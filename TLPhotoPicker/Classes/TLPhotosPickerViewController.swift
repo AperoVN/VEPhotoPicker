@@ -56,6 +56,7 @@ public struct TLPhotosPickerConfigure {
     public var tapHereToChange = "Tap here to change"
     public var cancelTitle = "Cancel"
     public var doneTitle = "Done"
+    public var doneSelectImage: UIImage? = nil
     public var emptyMessage = "No albums"
     public var selectMessage = "Select"
     public var deselectMessage = "Deselect"
@@ -1316,6 +1317,15 @@ extension TLPhotosPickerViewController {
             
             if asset.type != .photo, configure.autoPlay {
                 playVideo(asset: asset, indexPath: indexPath)
+            }
+        }
+        
+        if let doneImage = self.configure.doneSelectImage {
+            if selectedAssets.isEmpty {
+                doneButton.title = self.configure.doneTitle
+                doneButton.image = nil
+            } else {
+                doneButton.image = doneImage
             }
         }
 
