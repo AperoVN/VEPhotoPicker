@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18465D9B206E8A8B0015A715 /* TLPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18465D9B206E8A8B0015A715 /* VEPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VEPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18465D9E206E8A8B0015A715 /* TLPhotoPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLPhotoPicker.h; sourceTree = "<group>"; };
 		18465D9F206E8A8B0015A715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18465DA6206E8AEB0015A715 /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TLPhotosPickerViewController.swift; path = Classes/TLPhotosPickerViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -60,7 +60,7 @@
 		18465D91206E8A8B0015A715 = {
 			isa = PBXGroup;
 			children = (
-				18465D9D206E8A8B0015A715 /* TLPhotoPicker */,
+				18465D9D206E8A8B0015A715 /* VEPhotoPicker */,
 				18465D9C206E8A8B0015A715 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,12 +68,12 @@
 		18465D9C206E8A8B0015A715 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18465D9B206E8A8B0015A715 /* TLPhotoPicker.framework */,
+				18465D9B206E8A8B0015A715 /* VEPhotoPicker.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18465D9D206E8A8B0015A715 /* TLPhotoPicker */ = {
+		18465D9D206E8A8B0015A715 /* VEPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
 				18465DBA206E8AFD0015A715 /* TLPhotoPickerController.bundle */,
@@ -94,7 +94,7 @@
 				18465D9E206E8A8B0015A715 /* TLPhotoPicker.h */,
 				18465D9F206E8A8B0015A715 /* Info.plist */,
 			);
-			path = TLPhotoPicker;
+			path = VEPhotoPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,9 +111,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18465D9A206E8A8B0015A715 /* TLPhotoPicker */ = {
+		18465D9A206E8A8B0015A715 /* VEPhotoPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18465DA3206E8A8B0015A715 /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */;
+			buildConfigurationList = 18465DA3206E8A8B0015A715 /* Build configuration list for PBXNativeTarget "VEPhotoPicker" */;
 			buildPhases = (
 				18465D96206E8A8B0015A715 /* Sources */,
 				18465D97206E8A8B0015A715 /* Frameworks */,
@@ -124,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = TLPhotoPicker;
+			name = VEPhotoPicker;
 			productName = TLPhotoPicker;
-			productReference = 18465D9B206E8A8B0015A715 /* TLPhotoPicker.framework */;
+			productReference = 18465D9B206E8A8B0015A715 /* VEPhotoPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18465D95206E8A8B0015A715 /* Build configuration list for PBXProject "TLPhotoPicker" */;
+			buildConfigurationList = 18465D95206E8A8B0015A715 /* Build configuration list for PBXProject "VEPhotoPicker" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18465D9A206E8A8B0015A715 /* TLPhotoPicker */,
+				18465D9A206E8A8B0015A715 /* VEPhotoPicker */,
 			);
 		};
 /* End PBXProject section */
@@ -327,7 +327,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TLPhotoPicker/Info.plist;
+				INFOPLIST_FILE = VEPhotoPicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tilltue.TLPhotoPicker;
@@ -351,7 +351,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TLPhotoPicker/Info.plist;
+				INFOPLIST_FILE = VEPhotoPicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tilltue.TLPhotoPicker;
@@ -366,7 +366,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18465D95206E8A8B0015A715 /* Build configuration list for PBXProject "TLPhotoPicker" */ = {
+		18465D95206E8A8B0015A715 /* Build configuration list for PBXProject "VEPhotoPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18465DA1206E8A8B0015A715 /* Debug */,
@@ -375,7 +375,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18465DA3206E8A8B0015A715 /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */ = {
+		18465DA3206E8A8B0015A715 /* Build configuration list for PBXNativeTarget "VEPhotoPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18465DA4206E8A8B0015A715 /* Debug */,
