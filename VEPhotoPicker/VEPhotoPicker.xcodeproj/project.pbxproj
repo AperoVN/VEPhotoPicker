@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18465DA0206E8A8B0015A715 /* VEPhotoPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 18465D9E206E8A8B0015A715 /* VEPhotoPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18465DB0206E8AEB0015A715 /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465DA6206E8AEB0015A715 /* TLPhotosPickerViewController.swift */; };
 		18465DB1206E8AEB0015A715 /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18465DA7206E8AEB0015A715 /* TLCollectionTableViewCell.xib */; };
 		18465DB2206E8AEB0015A715 /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18465DA8206E8AEB0015A715 /* TLPhotoCollectionViewCell.xib */; };
@@ -22,6 +21,7 @@
 		189E996E21F8BA7F00A754E4 /* TLPhotopickerDataSourcesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E996C21F8BA7F00A754E4 /* TLPhotopickerDataSourcesProtocol.swift */; };
 		189E996F21F8BA7F00A754E4 /* TLAssetCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E996D21F8BA7F00A754E4 /* TLAssetCollection+Extension.swift */; };
 		18A3E62D224FADAD009A9567 /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3E62C224FADAD009A9567 /* SynchronizedDictionary.swift */; };
+		7663961A2880289B000D9E55 /* VEPhotoPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 18465D9E206E8A8B0015A715 /* VEPhotoPicker.h */; };
 		B8E49AB223CC5FE900626917 /* TLAssetPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E49AB123CC5FE900626917 /* TLAssetPreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -104,7 +104,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18465DA0206E8A8B0015A715 /* VEPhotoPicker.h in Headers */,
+				7663961A2880289B000D9E55 /* VEPhotoPicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
