@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "18465D9A206E8A8B0015A715"
-               BuildableName = "TLPhotoPicker.framework"
+               BuildableName = "VEPhotoPicker.framework"
                BlueprintName = "VEPhotoPicker"
                ReferencedContainer = "container:VEPhotoPicker.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18465D9A206E8A8B0015A715"
-            BuildableName = "TLPhotoPicker.framework"
+            BuildableName = "VEPhotoPicker.framework"
             BlueprintName = "VEPhotoPicker"
             ReferencedContainer = "container:VEPhotoPicker.xcodeproj">
          </BuildableReference>

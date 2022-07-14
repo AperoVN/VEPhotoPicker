@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18465DA0206E8A8B0015A715 /* TLPhotoPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 18465D9E206E8A8B0015A715 /* TLPhotoPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18465DA0206E8A8B0015A715 /* VEPhotoPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 18465D9E206E8A8B0015A715 /* VEPhotoPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18465DB0206E8AEB0015A715 /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465DA6206E8AEB0015A715 /* TLPhotosPickerViewController.swift */; };
 		18465DB1206E8AEB0015A715 /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18465DA7206E8AEB0015A715 /* TLCollectionTableViewCell.xib */; };
 		18465DB2206E8AEB0015A715 /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18465DA8206E8AEB0015A715 /* TLPhotoCollectionViewCell.xib */; };
@@ -27,7 +27,7 @@
 
 /* Begin PBXFileReference section */
 		18465D9B206E8A8B0015A715 /* VEPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VEPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18465D9E206E8A8B0015A715 /* TLPhotoPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLPhotoPicker.h; sourceTree = "<group>"; };
+		18465D9E206E8A8B0015A715 /* VEPhotoPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VEPhotoPicker.h; sourceTree = "<group>"; };
 		18465D9F206E8A8B0015A715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18465DA6206E8AEB0015A715 /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TLPhotosPickerViewController.swift; path = Classes/TLPhotosPickerViewController.swift; sourceTree = SOURCE_ROOT; };
 		18465DA7206E8AEB0015A715 /* TLCollectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TLCollectionTableViewCell.xib; path = Classes/TLCollectionTableViewCell.xib; sourceTree = SOURCE_ROOT; };
@@ -91,7 +91,7 @@
 				18465DAE206E8AEB0015A715 /* TLPhotoLibrary.swift */,
 				18465DA6206E8AEB0015A715 /* TLPhotosPickerViewController.swift */,
 				18465DAF206E8AEB0015A715 /* TLPhotosPickerViewController.xib */,
-				18465D9E206E8A8B0015A715 /* TLPhotoPicker.h */,
+				18465D9E206E8A8B0015A715 /* VEPhotoPicker.h */,
 				18465D9F206E8A8B0015A715 /* Info.plist */,
 			);
 			path = VEPhotoPicker;
@@ -104,7 +104,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18465DA0206E8A8B0015A715 /* TLPhotoPicker.h in Headers */,
+				18465DA0206E8A8B0015A715 /* VEPhotoPicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
