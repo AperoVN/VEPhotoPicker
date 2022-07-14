@@ -95,6 +95,7 @@ public struct TLPhotosPickerConfigure {
     public var groupByFetch: PHFetchedResultGroupedBy? = nil
     public var supportedInterfaceOrientations: UIInterfaceOrientationMask = .portrait
     public var popup: [PopupConfigure] = []
+    public var navigationBarTintColor: UIColor = .black
     public init() {
         
     }
@@ -441,6 +442,9 @@ extension TLPhotosPickerViewController {
         }
         self.customDataSouces?.registerSupplementView(collectionView: self.collectionView)
         self.navigationBar.delegate = self
+        self.navigationBar.tintColor = configure.navigationBarTintColor
+        self.titleLabel.textColor = configure.navigationBarTintColor
+        self.subTitleLabel.textColor = configure.navigationBarTintColor
         updateUserInterfaceStyle()
     }
     
