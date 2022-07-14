@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'TLPhotoPicker'
+  s.name             = 'VEPhotoPicker'
   s.version          = '2.1.10'
   s.summary          = 'multiple phassets picker for iOS lib. like facebook'
 
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/AperoVN/TLPhotoPicker'
+  s.homepage         = 'https://github.com/AperoVN/VEPhotoPicker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wade.hawk' => 'junhyi.park@gmail.com' }
-  s.source           = { :git => 'https://github.com/AperoVN/TLPhotoPicker.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AperoVN/VEPhotoPicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.1'
