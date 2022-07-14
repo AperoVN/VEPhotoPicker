@@ -32,10 +32,10 @@ TODO: Add long description of the pod here.
   s.swift_version = '5.0'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
-  s.source_files = 'TLPhotoPicker/Classes/**/*.swift'
+  s.source_files = 'VEPhotoPicker/Classes/**/*.swift'
 
-  s.resource_bundles = { 'TLPhotoPicker' => ['TLPhotoPicker/Classes/*.xib'] }
-  s.resources = 'TLPhotoPicker/TLPhotoPickerController.bundle'
+  s.resource_bundles = { 'VEPhotoPicker' => ['VEPhotoPicker/Classes/*.xib'] }
+  s.resources = 'VEPhotoPicker/TLPhotoPickerController.bundle'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
