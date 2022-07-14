@@ -55,7 +55,8 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 platform :ios, '9.1'
-pod "TLPhotoPicker"
+pod "VEPhotoPicker", :git => "https://github.com/AperoVN/VEPhotoPicker.git", :tag => '2.1.10'
+
 ```
 
 ### Carthage
